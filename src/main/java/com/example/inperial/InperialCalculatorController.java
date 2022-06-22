@@ -11,4 +11,10 @@ public class InperialCalculatorController {
     public double cm(@RequestParam int a) {
         return e.cm(a);
     }
+
+    @RequestMapping("/cm")
+    public double m(@RequestParam double a) {
+        return e.m(a);
+    }
 }
+
