@@ -9,6 +9,6 @@ public class InperialCalculator {
     }
 
     public double m(double a) {
-        return a * 0.9144;
+        return 0.9144 * a;
     }
 }

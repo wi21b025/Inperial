@@ -12,7 +12,7 @@ public class InperialCalculatorController {
         return e.cm(a);
     }
 
-    @RequestMapping("/cm")
+    @RequestMapping("/m")
     public double m(@RequestParam double a) {
         return e.m(a);
     }
