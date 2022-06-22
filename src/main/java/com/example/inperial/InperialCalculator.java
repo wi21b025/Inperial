@@ -8,7 +8,7 @@ public class InperialCalculator {
         return 2.54 * a;
     }
 
-    public double m(int a) {
+    public double m(double a) {
         return a * 0.9144;
     }
 }
